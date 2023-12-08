@@ -13,7 +13,7 @@ describe('Validate the DELETE API request to delete user', () => {
             // Log the API response
             cy.log(`API response is: ${JSON.stringify(body)}`)
 
-            // validate API respsose status code is 200
+            // validate API respsose status code is 204
             expect(status).to.eq(204)
 
             // validate that the repsonse body is empty
