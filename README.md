@@ -13,7 +13,7 @@ This project contains https://reqres.in/ API testing using Cypress.
 2. **Navigate to the project folder:**
 
     ```bash
-    cd cypressAPITests
+    cd project-folder-name
     ```
 
 3. **Install dependencies:**
